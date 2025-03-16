@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazaar Setu - Grow Your Business</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+        }
+        .faq {
+            margin-top: 20px;
+        }
+        .faq-item {
+            margin-bottom: 10px;
+        }
+        .faq-answer {
+            display: none;
+            margin-top: 5px;
+        }
+        .download-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #008CBA;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        function toggleAnswer(id) {
+            var answer = document.getElementById(id);
+            if (answer.style.display === "none") {
+                answer.style.display = "block";
+            } else {
+                answer.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Bazaar Setu</h1>
+    <p>Bazaar Setu is a mobile application that allows users to search for shops, sellers, and businesses, view customer reviews, and connect with shopkeepers or service providers. The app enables customers to browse and purchase products through the Explore tab, while businesses can expand their reach and grow without any cost.</p>
+    
+    <h2>Overview</h2>
+    <p>Bazaar Setu bridges the gap between businesses and customers, allowing shops and service providers to create a profile, showcase products, and interact with buyers. The platform supports retail, wholesale, manufacturing, and service industries.</p>
+    
+    <h2>Key Features</h2>
+    <ul>
+        <li>Business Discovery - Find shops, sellers, and service providers easily.</li>
+        <li>Customer Reviews & Ratings - Make informed decisions based on reviews.</li>
+        <li>Direct Contact & Messaging - Communicate with sellers directly.</li>
+        <li>Product Browsing & Purchasing - Explore and buy products easily.</li>
+        <li>Free Business Growth Tools - Expand your business at no cost.</li>
+    </ul>
+    
+    <h2>Global Availability</h2>
+    <p>Bazaar Setu is available worldwide. Its headquarters is based in Jaipur, India, but the platform is managed globally with offices in the USA, Dubai, and other locations.</p>
+    
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq">
+        <div class="faq-item">
+            <button onclick="toggleAnswer('faq1')">How does Bazaar Setu help businesses grow?</button>
+            <p id="faq1" class="faq-answer">Bazaar Setu provides free business registration, increased visibility through customer reviews, and direct engagement with buyers, helping businesses expand their customer base.</p>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleAnswer('faq2')">Is Bazaar Setu completely free?</button>
+            <p id="faq2" class="faq-answer">Yes, all core features of Bazaar Setu, including business listings, messaging, and customer reviews, are free to use. Optional promotional services may be available.</p>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleAnswer('faq3')">Can I contact any shopkeeper on Bazaar Setu?</button>
+            <p id="faq3" class="faq-answer">Yes, users can directly message and contact shopkeepers or sellers through the app.</p>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleAnswer('faq4')">How can I download Bazaar Setu?</button>
+            <p id="faq4" class="faq-answer">You can download Bazaar Setu from the Play Store using the link below.</p>
+        </div>
+    </div>
+    
+    <a class="download-btn" href="https://play.google.com/store/apps/details?id=com.market.search">Download Now from Play Store</a>
+</body>
+</html>
